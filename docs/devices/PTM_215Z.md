@@ -39,10 +39,10 @@ This device has 4 buttons:
 
 | Number | Button | Position | Channel |
 |-|-|-|-|
-| 1 | A0 | Top left     | 15 |
-| 2 | A1 | Bottom left  | 20 |
-| 3 | B0 | Top right    | 11 |
-| 4 | B1 | Bottom right | 25 |
+| 1 | A0 (KEY3) | Top left     | 15 |
+| 2 | A1 (KEY1) | Bottom left  | 20 |
+| 3 | B0 (KEY4) | Top right    | 11 |
+| 4 | B1 (KEY2) | Bottom right | 25 |
 
 In case the module is integrated in a single rocker switch, you need to remove the caps to expose all buttons. A button can be pressed by holding the contact of that button and then push the energy bar.
 
@@ -50,13 +50,13 @@ To pair it, hold the corresponding button for that channel for 7 seconds or more
 
 Once the device is paired you need to confirm the channel. To do this press A1 and B0 together. Important: don't press any other buttons between this and the pairing.
 
-In case you want to pair it to a different channel you have to factory reset the device. This can be done by pressing all buttons (A0, A1, B0 and B1) simultaneously for at least 7 seconds.
+In case you want to pair it to a different channel you have to factory reset the device. This can be done by pressing all buttons (A0/KEY3, A1/KEY1, B0/KEY4 and B1/KEY2) simultaneously for at least 7 seconds.
 
 Alternatively, you should be able to reset the switch with the following pattern:
-1. Press top left (A0)
-2. Press and hold top right (B0) for about 10 seconds 
-3. press top right (B0) and bottom left (A1) at the same time 
-4. press top left (A0)
+1. Press top left (A0/KEY3)
+2. Press and hold top right (B0/KEY4) for about 10 seconds 
+3. press top right (B0) and bottom left (A1/KEY1) at the same time 
+4. press top left (A0/KEY3)
 Note: Please make sure the module is positioned the right way up.
 
 ## Home Assistant
